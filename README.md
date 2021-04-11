@@ -38,6 +38,12 @@ git学习
 
 
 
+**切换分支**
+
+切换分支时 未提交的修改代码会随着切换 被引入到新切换的分支上，切换时会有Force Checkout、Smart Checkout、Dont Checkout选择，切换成功后 idea会有popup提示（可选择Rollback）；
+
+> If you click **Smart Checkout**, IntelliJ IDEA will [shelve](https://www.jetbrains.com/help/idea/work-on-several-features-simultaneously.html#shelve) uncommitted changes, check out the selected branch, and then unshelve the changes. If a conflict occurs during the unshelve operation, you will be prompted to merge the changes. For details, see [Resolve conflicts](https://www.jetbrains.com/help/idea/resolve-conflicts.html).
+
 
 
 
