@@ -7,6 +7,6 @@ public class JustNewFile {
 
 
     private String getS(){
-        return "Test move to another changelist";
+        return "change last commit content!";
     }
 }
