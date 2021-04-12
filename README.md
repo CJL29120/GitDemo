@@ -87,7 +87,15 @@ git学习
 
 
 
+### 使用 `rebase` 和 `merge` 的基本原则：
 
+1. 下游分支更新上游分支内容的时候使用 `rebase`     （下游 如dev分支；上游 如main、master等）
+2. 上游分支合并下游分支内容的时候使用 `merge`
+3. 更新当前分支的内容时一定要使用 `--rebase` 参数
+
+例如现有上游分支 master，基于 master 分支拉出来一个开发分支 dev，在 dev 上开发了一段时间后要把 master 分支提交的新内容更新到 dev 分支，此时切换到 dev 分支，使用 `git rebase master`
+
+等 dev 分支开发完成了之后，要合并到上游分支 master 上的时候，切换到 master 分支，使用 `git merge dev`
 
 
 
