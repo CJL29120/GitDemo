@@ -8,6 +8,9 @@ public class FunctionForChen {
 
 
 
-        return "FunctionForChen 处于dev分支时被修改 3";
+        return "FunctionForChen 处于dev分支时被修改";
     }
+
+    // 测试 cherry-pick 功能
+    // 0
 }
